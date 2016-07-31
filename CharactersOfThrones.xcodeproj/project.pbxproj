@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6613B4371D4C9E8900133A88 /* COTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B4361D4C9E8900133A88 /* COTNavigationBar.m */; };
+		6613B43A1D4CB14000133A88 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B4391D4CB14000133A88 /* DetailsViewController.m */; };
+		6613B43D1D4CF69300133A88 /* FavoriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B43C1D4CF69300133A88 /* FavoriteButton.m */; };
+		6613B4401D4D4D3800133A88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6613B4421D4D4D3800133A88 /* Localizable.strings */; };
+		6613B4481D4D514D00133A88 /* UITableView+EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */; };
 		663AD24C1D48D82A00C51651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD24B1D48D82A00C51651 /* main.m */; };
 		663AD24F1D48D82A00C51651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD24E1D48D82A00C51651 /* AppDelegate.m */; };
-		663AD2521D48D82A00C51651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD2511D48D82A00C51651 /* ViewController.m */; };
+		663AD2521D48D82A00C51651 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD2511D48D82A00C51651 /* MainViewController.m */; };
 		663AD2551D48D82A00C51651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2531D48D82A00C51651 /* Main.storyboard */; };
 		663AD2571D48D82A00C51651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2561D48D82A00C51651 /* Assets.xcassets */; };
 		663AD25A1D48D82A00C51651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2581D48D82A00C51651 /* LaunchScreen.storyboard */; };
 		663AD2651D48D82A00C51651 /* CharactersOfThronesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD2641D48D82A00C51651 /* CharactersOfThronesTests.m */; };
 		663AD2701D48D82A00C51651 /* CharactersOfThronesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD26F1D48D82A00C51651 /* CharactersOfThronesUITests.m */; };
+		667E2F651D4A250E00F76312 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F641D4A250E00F76312 /* Character.m */; };
+		667E2F6A1D4A31EC00F76312 /* UIColor+AdditionalColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F691D4A31EC00F76312 /* UIColor+AdditionalColors.m */; };
+		667E2F6D1D4A35F600F76312 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F6C1D4A35F600F76312 /* BaseViewController.m */; };
+		667E2F711D4A39CF00F76312 /* CharacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F701D4A39CF00F76312 /* CharacterCell.m */; };
+		667E2F741D4B4FD900F76312 /* UITableViewCell+SelectedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F731D4B4FD900F76312 /* UITableViewCell+SelectedColor.m */; };
+		667E2F771D4B58E500F76312 /* CharactersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F761D4B58E500F76312 /* CharactersViewModel.m */; };
+		667E2F7A1D4BA7D900F76312 /* EmblemImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F791D4BA7D900F76312 /* EmblemImageView.m */; };
+		EF6BDA034FDDA9BA3DC9A4B2 /* libPods-CharactersOfThrones.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC04FD270AC44D1A7EDEBE41 /* libPods-CharactersOfThrones.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6613B4351D4C9E8900133A88 /* COTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTNavigationBar.h; sourceTree = "<group>"; };
+		6613B4361D4C9E8900133A88 /* COTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTNavigationBar.m; sourceTree = "<group>"; };
+		6613B4381D4CB14000133A88 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		6613B4391D4CB14000133A88 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		6613B43B1D4CF69300133A88 /* FavoriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteButton.h; sourceTree = "<group>"; };
+		6613B43C1D4CF69300133A88 /* FavoriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteButton.m; sourceTree = "<group>"; };
+		6613B4431D4D4D3A00133A88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6613B4461D4D514D00133A88 /* UITableView+EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyView.h"; sourceTree = "<group>"; };
+		6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyView.m"; sourceTree = "<group>"; };
 		663AD2471D48D82A00C51651 /* CharactersOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharactersOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663AD24B1D48D82A00C51651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		663AD24D1D48D82A00C51651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663AD24E1D48D82A00C51651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		663AD2501D48D82A00C51651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		663AD2511D48D82A00C51651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		663AD2501D48D82A00C51651 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		663AD2511D48D82A00C51651 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		663AD2541D48D82A00C51651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663AD2561D48D82A00C51651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663AD2591D48D82A00C51651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +73,24 @@
 		663AD26B1D48D82A00C51651 /* CharactersOfThronesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharactersOfThronesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663AD26F1D48D82A00C51651 /* CharactersOfThronesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersOfThronesUITests.m; sourceTree = "<group>"; };
 		663AD2711D48D82A00C51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667E2F631D4A250E00F76312 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Character.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		667E2F641D4A250E00F76312 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Character.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		667E2F671D4A2D1A00F76312 /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Consts.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		667E2F681D4A31EC00F76312 /* UIColor+AdditionalColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdditionalColors.h"; sourceTree = "<group>"; };
+		667E2F691D4A31EC00F76312 /* UIColor+AdditionalColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdditionalColors.m"; sourceTree = "<group>"; };
+		667E2F6B1D4A35F600F76312 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		667E2F6C1D4A35F600F76312 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		667E2F6F1D4A39CF00F76312 /* CharacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CharacterCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		667E2F701D4A39CF00F76312 /* CharacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CharacterCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		667E2F721D4B4FD900F76312 /* UITableViewCell+SelectedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SelectedColor.h"; sourceTree = "<group>"; };
+		667E2F731D4B4FD900F76312 /* UITableViewCell+SelectedColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SelectedColor.m"; sourceTree = "<group>"; };
+		667E2F751D4B58E500F76312 /* CharactersViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CharactersViewModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		667E2F761D4B58E500F76312 /* CharactersViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CharactersViewModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		667E2F781D4BA7D900F76312 /* EmblemImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmblemImageView.h; sourceTree = "<group>"; };
+		667E2F791D4BA7D900F76312 /* EmblemImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmblemImageView.m; sourceTree = "<group>"; };
+		CC04FD270AC44D1A7EDEBE41 /* libPods-CharactersOfThrones.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CharactersOfThrones.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88B35EC12F9CB607F33732A /* Pods-CharactersOfThrones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharactersOfThrones.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharactersOfThrones/Pods-CharactersOfThrones.release.xcconfig"; sourceTree = "<group>"; };
+		F94012077DB22E42E1CC7E13 /* Pods-CharactersOfThrones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharactersOfThrones.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharactersOfThrones/Pods-CharactersOfThrones.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6BDA034FDDA9BA3DC9A4B2 /* libPods-CharactersOfThrones.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DAEE708DC8AAF3B7C5F26E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC04FD270AC44D1A7EDEBE41 /* libPods-CharactersOfThrones.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		663AD23E1D48D82A00C51651 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +134,8 @@
 				663AD2631D48D82A00C51651 /* CharactersOfThronesTests */,
 				663AD26E1D48D82A00C51651 /* CharactersOfThronesUITests */,
 				663AD2481D48D82A00C51651 /* Products */,
+				D1EBF5F08C0344CDFA07CCF1 /* Pods */,
+				0DAEE708DC8AAF3B7C5F26E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +152,13 @@
 		663AD2491D48D82A00C51651 /* CharactersOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				667E2F601D4A233A00F76312 /* Models */,
+				667E2F6E1D4A39A300F76312 /* Views */,
+				667E2F611D4A234200F76312 /* ViewModels */,
+				667E2F621D4A235000F76312 /* ViewControllers */,
+				667E2F661D4A2D0100F76312 /* Utils */,
 				663AD24D1D48D82A00C51651 /* AppDelegate.h */,
 				663AD24E1D48D82A00C51651 /* AppDelegate.m */,
-				663AD2501D48D82A00C51651 /* ViewController.h */,
-				663AD2511D48D82A00C51651 /* ViewController.m */,
 				663AD2531D48D82A00C51651 /* Main.storyboard */,
 				663AD2561D48D82A00C51651 /* Assets.xcassets */,
 				663AD2581D48D82A00C51651 /* LaunchScreen.storyboard */,
@@ -118,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				663AD24B1D48D82A00C51651 /* main.m */,
+				6613B4421D4D4D3800133A88 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +195,75 @@
 			path = CharactersOfThronesUITests;
 			sourceTree = "<group>";
 		};
+		667E2F601D4A233A00F76312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				667E2F631D4A250E00F76312 /* Character.h */,
+				667E2F641D4A250E00F76312 /* Character.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		667E2F611D4A234200F76312 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				667E2F751D4B58E500F76312 /* CharactersViewModel.h */,
+				667E2F761D4B58E500F76312 /* CharactersViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		667E2F621D4A235000F76312 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				667E2F6B1D4A35F600F76312 /* BaseViewController.h */,
+				667E2F6C1D4A35F600F76312 /* BaseViewController.m */,
+				663AD2501D48D82A00C51651 /* MainViewController.h */,
+				663AD2511D48D82A00C51651 /* MainViewController.m */,
+				6613B4381D4CB14000133A88 /* DetailsViewController.h */,
+				6613B4391D4CB14000133A88 /* DetailsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		667E2F661D4A2D0100F76312 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				667E2F671D4A2D1A00F76312 /* Consts.h */,
+				667E2F681D4A31EC00F76312 /* UIColor+AdditionalColors.h */,
+				667E2F691D4A31EC00F76312 /* UIColor+AdditionalColors.m */,
+				667E2F721D4B4FD900F76312 /* UITableViewCell+SelectedColor.h */,
+				667E2F731D4B4FD900F76312 /* UITableViewCell+SelectedColor.m */,
+				6613B4461D4D514D00133A88 /* UITableView+EmptyView.h */,
+				6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		667E2F6E1D4A39A300F76312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				667E2F6F1D4A39CF00F76312 /* CharacterCell.h */,
+				667E2F701D4A39CF00F76312 /* CharacterCell.m */,
+				667E2F781D4BA7D900F76312 /* EmblemImageView.h */,
+				667E2F791D4BA7D900F76312 /* EmblemImageView.m */,
+				6613B4351D4C9E8900133A88 /* COTNavigationBar.h */,
+				6613B4361D4C9E8900133A88 /* COTNavigationBar.m */,
+				6613B43B1D4CF69300133A88 /* FavoriteButton.h */,
+				6613B43C1D4CF69300133A88 /* FavoriteButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D1EBF5F08C0344CDFA07CCF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F94012077DB22E42E1CC7E13 /* Pods-CharactersOfThrones.debug.xcconfig */,
+				D88B35EC12F9CB607F33732A /* Pods-CharactersOfThrones.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663AD2741D48D82A00C51651 /* Build configuration list for PBXNativeTarget "CharactersOfThrones" */;
 			buildPhases = (
+				5BB10F463B9AB00ECB094938 /* [CP] Check Pods Manifest.lock */,
 				663AD2431D48D82A00C51651 /* Sources */,
 				663AD2441D48D82A00C51651 /* Frameworks */,
 				663AD2451D48D82A00C51651 /* Resources */,
+				1DF42A27BE72F675F23378C7 /* [CP] Embed Pods Frameworks */,
+				E38AEE611B3C967B8034E090 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				663AD25A1D48D82A00C51651 /* LaunchScreen.storyboard in Resources */,
+				6613B4401D4D4D3800133A88 /* Localizable.strings in Resources */,
 				663AD2571D48D82A00C51651 /* Assets.xcassets in Resources */,
 				663AD2551D48D82A00C51651 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +393,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF42A27BE72F675F23378C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharactersOfThrones/Pods-CharactersOfThrones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BB10F463B9AB00ECB094938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E38AEE611B3C967B8034E090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharactersOfThrones/Pods-CharactersOfThrones-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		663AD2431D48D82A00C51651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663AD2521D48D82A00C51651 /* ViewController.m in Sources */,
+				6613B43D1D4CF69300133A88 /* FavoriteButton.m in Sources */,
+				667E2F6A1D4A31EC00F76312 /* UIColor+AdditionalColors.m in Sources */,
+				667E2F6D1D4A35F600F76312 /* BaseViewController.m in Sources */,
+				667E2F7A1D4BA7D900F76312 /* EmblemImageView.m in Sources */,
+				6613B43A1D4CB14000133A88 /* DetailsViewController.m in Sources */,
+				6613B4371D4C9E8900133A88 /* COTNavigationBar.m in Sources */,
+				663AD2521D48D82A00C51651 /* MainViewController.m in Sources */,
+				6613B4481D4D514D00133A88 /* UITableView+EmptyView.m in Sources */,
+				667E2F771D4B58E500F76312 /* CharactersViewModel.m in Sources */,
 				663AD24F1D48D82A00C51651 /* AppDelegate.m in Sources */,
 				663AD24C1D48D82A00C51651 /* main.m in Sources */,
+				667E2F651D4A250E00F76312 /* Character.m in Sources */,
+				667E2F741D4B4FD900F76312 /* UITableViewCell+SelectedColor.m in Sources */,
+				667E2F711D4A39CF00F76312 /* CharacterCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +495,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6613B4421D4D4D3800133A88 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6613B4431D4D4D3A00133A88 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		663AD2531D48D82A00C51651 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,23 +606,31 @@
 		};
 		663AD2751D48D82A00C51651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94012077DB22E42E1CC7E13 /* Pods-CharactersOfThrones.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CharactersOfThrones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asDeveloper.CharactersOfThrones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		663AD2761D48D82A00C51651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88B35EC12F9CB607F33732A /* Pods-CharactersOfThrones.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CharactersOfThrones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asDeveloper.CharactersOfThrones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +699,7 @@
 				663AD2761D48D82A00C51651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		663AD2771D48D82A00C51651 /* Build configuration list for PBXNativeTarget "CharactersOfThronesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +708,7 @@
 				663AD2791D48D82A00C51651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		663AD27A1D48D82A00C51651 /* Build configuration list for PBXNativeTarget "CharactersOfThronesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +717,7 @@
 				663AD27C1D48D82A00C51651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

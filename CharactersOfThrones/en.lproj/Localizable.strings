@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CharactersOfThrones
+
+  Created by Adam Szczuchniak on 30/07/16.
+  Copyright © 2016 Adam Szczuchniak. All rights reserved.
+*/
+
+// Toasts
+"AddedToFavorites" = "%@ has been added to favorites";
+"RemovedFromFavorites" = "%@ has been removed from favorites";
