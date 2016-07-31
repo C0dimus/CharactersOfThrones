@@ -15,7 +15,7 @@
 @required
 - (void)onGetCharactersSucceed;
 - (void)onGetCharactersFailed;
-- (void)onGetThumbnailWithCharacterId:(NSInteger)characterId;
+- (void)onGetThumbnail;
 
 @end
 

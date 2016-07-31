@@ -14,6 +14,7 @@
 
 @interface CharacterCell() <FavoriteButtonDelegate>
 @property (strong, nonatomic) UIImageView *thumbnailImageView;
+@property (strong, nonatomic) UIActivityIndicatorView *thumbnailIndicator;
 @property (strong, nonatomic) UILabel *titleLabel;
 @property (strong, nonatomic) UILabel *abstractLabel;
 @property (strong, nonatomic) FavoriteButton *favoriteButton;
@@ -36,6 +37,7 @@
         [self setSelectedColor:[UIColor cellSelectedColor]];
         
         [self initThumbnailImageView];
+        [self initThumbnailIndicator];
         [self initFavoriteButton];
         [self initTitleLabel];
         [self initAbstractLabel];
@@ -55,6 +57,18 @@
         make.leading.equalTo(self.mas_leading).with.offset(DEFAULT_OFFSET);
         make.width.equalTo(@(THUMBNAIL_SIZE));
         make.height.equalTo(@(THUMBNAIL_SIZE));
+    }];
+}
+
+- (void)initThumbnailIndicator {
+    self.thumbnailIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    self.thumbnailIndicator.hidesWhenStopped = YES;
+    [self.thumbnailIndicator startAnimating];
+    
+    [self addSubview:self.thumbnailIndicator];
+    [self.thumbnailIndicator mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.thumbnailImageView.mas_centerX);
+        make.centerY.equalTo(self.thumbnailImageView.mas_centerY);
     }];
 }
 
@@ -97,7 +111,13 @@
 
 - (void)fillWithCharacterId:(NSInteger)characterId {
     self.characterId  = characterId;
-    self.thumbnailImageView.image = [self.charactersVM imageForCharacterId:characterId];
+    UIImage *thumbnailImage = [self.charactersVM imageForCharacterId:characterId];
+    if (thumbnailImage) {
+        self.thumbnailImageView.image = thumbnailImage;
+        [self.thumbnailIndicator stopAnimating];
+    } else {
+        [self.thumbnailImageView startAnimating];
+    }
     self.titleLabel.text = [self.charactersVM titleForCharacterId:characterId];
     self.abstractLabel.text = [self.charactersVM abstarctForCharacterId:characterId];
     [self.favoriteButton setImageDependingOnButtonState:[self.charactersVM isFavoriteCharacterWithId:characterId]];

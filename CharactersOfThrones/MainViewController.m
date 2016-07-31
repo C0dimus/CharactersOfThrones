@@ -11,7 +11,6 @@
 #import "CharactersViewModel.h"
 #import "DetailsViewController.h"
 #import <UIView+Toast.h>
-#import "UITableView+EmptyView.h"
 
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource, CharactersViewModelDelegate, CharacterCellDelegate>
 
@@ -146,10 +145,10 @@
 }
 
 - (void)onGetCharactersFailed {
-    
+    [self.view makeToast:LOCALIZED(@"DownloadError") duration:3.0f position:CSToastPositionCenter];
 }
 
-- (void)onGetThumbnailWithCharacterId:(NSInteger)characterId {
+- (void)onGetThumbnail {
     [self.tableView reloadData];
 }
 

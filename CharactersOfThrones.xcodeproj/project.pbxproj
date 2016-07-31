@@ -11,15 +11,12 @@
 		6613B43A1D4CB14000133A88 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B4391D4CB14000133A88 /* DetailsViewController.m */; };
 		6613B43D1D4CF69300133A88 /* FavoriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B43C1D4CF69300133A88 /* FavoriteButton.m */; };
 		6613B4401D4D4D3800133A88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6613B4421D4D4D3800133A88 /* Localizable.strings */; };
-		6613B4481D4D514D00133A88 /* UITableView+EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */; };
 		663AD24C1D48D82A00C51651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD24B1D48D82A00C51651 /* main.m */; };
 		663AD24F1D48D82A00C51651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD24E1D48D82A00C51651 /* AppDelegate.m */; };
 		663AD2521D48D82A00C51651 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD2511D48D82A00C51651 /* MainViewController.m */; };
 		663AD2551D48D82A00C51651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2531D48D82A00C51651 /* Main.storyboard */; };
 		663AD2571D48D82A00C51651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2561D48D82A00C51651 /* Assets.xcassets */; };
 		663AD25A1D48D82A00C51651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663AD2581D48D82A00C51651 /* LaunchScreen.storyboard */; };
-		663AD2651D48D82A00C51651 /* CharactersOfThronesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD2641D48D82A00C51651 /* CharactersOfThronesTests.m */; };
-		663AD2701D48D82A00C51651 /* CharactersOfThronesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AD26F1D48D82A00C51651 /* CharactersOfThronesUITests.m */; };
 		667E2F651D4A250E00F76312 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F641D4A250E00F76312 /* Character.m */; };
 		667E2F6A1D4A31EC00F76312 /* UIColor+AdditionalColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F691D4A31EC00F76312 /* UIColor+AdditionalColors.m */; };
 		667E2F6D1D4A35F600F76312 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667E2F6C1D4A35F600F76312 /* BaseViewController.m */; };
@@ -55,8 +52,6 @@
 		6613B43B1D4CF69300133A88 /* FavoriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteButton.h; sourceTree = "<group>"; };
 		6613B43C1D4CF69300133A88 /* FavoriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteButton.m; sourceTree = "<group>"; };
 		6613B4431D4D4D3A00133A88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6613B4461D4D514D00133A88 /* UITableView+EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyView.h"; sourceTree = "<group>"; };
-		6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyView.m"; sourceTree = "<group>"; };
 		663AD2471D48D82A00C51651 /* CharactersOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharactersOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663AD24B1D48D82A00C51651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		663AD24D1D48D82A00C51651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,11 +63,7 @@
 		663AD2591D48D82A00C51651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663AD25B1D48D82A00C51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663AD2601D48D82A00C51651 /* CharactersOfThronesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharactersOfThronesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		663AD2641D48D82A00C51651 /* CharactersOfThronesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersOfThronesTests.m; sourceTree = "<group>"; };
-		663AD2661D48D82A00C51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663AD26B1D48D82A00C51651 /* CharactersOfThronesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharactersOfThronesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		663AD26F1D48D82A00C51651 /* CharactersOfThronesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersOfThronesUITests.m; sourceTree = "<group>"; };
-		663AD2711D48D82A00C51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667E2F631D4A250E00F76312 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Character.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		667E2F641D4A250E00F76312 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Character.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		667E2F671D4A2D1A00F76312 /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Consts.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -131,8 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				663AD2491D48D82A00C51651 /* CharactersOfThrones */,
-				663AD2631D48D82A00C51651 /* CharactersOfThronesTests */,
-				663AD26E1D48D82A00C51651 /* CharactersOfThronesUITests */,
 				663AD2481D48D82A00C51651 /* Products */,
 				D1EBF5F08C0344CDFA07CCF1 /* Pods */,
 				0DAEE708DC8AAF3B7C5F26E4 /* Frameworks */,
@@ -177,24 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		663AD2631D48D82A00C51651 /* CharactersOfThronesTests */ = {
-			isa = PBXGroup;
-			children = (
-				663AD2641D48D82A00C51651 /* CharactersOfThronesTests.m */,
-				663AD2661D48D82A00C51651 /* Info.plist */,
-			);
-			path = CharactersOfThronesTests;
-			sourceTree = "<group>";
-		};
-		663AD26E1D48D82A00C51651 /* CharactersOfThronesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				663AD26F1D48D82A00C51651 /* CharactersOfThronesUITests.m */,
-				663AD2711D48D82A00C51651 /* Info.plist */,
-			);
-			path = CharactersOfThronesUITests;
-			sourceTree = "<group>";
-		};
 		667E2F601D4A233A00F76312 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,8 +205,6 @@
 				667E2F691D4A31EC00F76312 /* UIColor+AdditionalColors.m */,
 				667E2F721D4B4FD900F76312 /* UITableViewCell+SelectedColor.h */,
 				667E2F731D4B4FD900F76312 /* UITableViewCell+SelectedColor.m */,
-				6613B4461D4D514D00133A88 /* UITableView+EmptyView.h */,
-				6613B4471D4D514D00133A88 /* UITableView+EmptyView.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -453,7 +422,6 @@
 				6613B43A1D4CB14000133A88 /* DetailsViewController.m in Sources */,
 				6613B4371D4C9E8900133A88 /* COTNavigationBar.m in Sources */,
 				663AD2521D48D82A00C51651 /* MainViewController.m in Sources */,
-				6613B4481D4D514D00133A88 /* UITableView+EmptyView.m in Sources */,
 				667E2F771D4B58E500F76312 /* CharactersViewModel.m in Sources */,
 				663AD24F1D48D82A00C51651 /* AppDelegate.m in Sources */,
 				663AD24C1D48D82A00C51651 /* main.m in Sources */,
@@ -467,7 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663AD2651D48D82A00C51651 /* CharactersOfThronesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +442,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663AD2701D48D82A00C51651 /* CharactersOfThronesUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

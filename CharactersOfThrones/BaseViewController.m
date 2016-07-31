@@ -37,4 +37,9 @@
     return NO;
 }
 
+#pragma mark - FavoriteButtonDelegate 
+- (void)favoriteButtonPressed:(FavoriteButton *)button {
+    
+}
+
 @end

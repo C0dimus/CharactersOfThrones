@@ -35,10 +35,23 @@
     
     NSURLSessionDataTask *downloadCharacters = [[NSURLSession sharedSession]
                                           dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-                                              NSError *jsonError = nil;
-                                              NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&jsonError];
-                                              [self setCharactersFromJson:jsonData];
-                                              [self.delegate onGetCharactersSucceed];
+                                              if (!error) {
+                                                  if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
+                                                      NSInteger statusCode = [(NSHTTPURLResponse *)response statusCode];
+                                                      
+                                                      if (statusCode == 200) {
+                                                          NSError *jsonError = nil;
+                                                          NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&jsonError];
+                                                          [self setCharactersFromJson:jsonData];
+                                                          [self.delegate onGetCharactersSucceed];
+                                                      } else {
+                                                          [self.delegate onGetCharactersFailed];
+                                                      }
+                                                  }
+                                                  
+                                              } else {
+                                                  [self.delegate onGetCharactersFailed];
+                                              }
                                           }];
     
     [downloadCharacters resume];
@@ -60,7 +73,7 @@
                                                    downloadTaskWithURL:url completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
                                                        self.images[character.thumbnailUrl] = [UIImage imageWithData:[NSData dataWithContentsOfURL:location]];
                                                        dispatch_async(dispatch_get_main_queue(), ^{
-                                                           [self.delegate onGetThumbnailWithCharacterId:character.characterId];
+                                                           [self.delegate onGetThumbnail];
                                                        });
                                                    }];
     

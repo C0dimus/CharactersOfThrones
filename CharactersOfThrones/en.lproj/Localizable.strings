@@ -9,3 +9,4 @@
 // Toasts
 "AddedToFavorites" = "%@ has been added to favorites";
 "RemovedFromFavorites" = "%@ has been removed from favorites";
+"DownloadError" = "Cannot download characters data. Check your internet connection and try again.";
